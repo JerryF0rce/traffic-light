@@ -1,0 +1,26 @@
+header {
+   width: 100%;
+   text-align: center;
+   height: 3.25vh;
+   padding: 20px 0;
+   background: teal;
+}
+
+.container {
+   height: 100%;
+   width: 100%;
+   max-width: 750px;
+   display: flex;
+   margin: auto;
+   text-align: center;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.container a {
+   display: block;
+   margin: 0 10px;
+   text-decoration: none;
+   color: #eee;
+   font-size: 18px;
+}

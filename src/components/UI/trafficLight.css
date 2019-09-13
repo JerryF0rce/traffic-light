@@ -1,0 +1,61 @@
+.trafficLight {
+   width: 224px;
+   height: 512px;
+   background: #142123;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   flex-wrap: nowrap;
+   border-radius: 15px;
+   margin: auto;
+   margin-top: 5vh;
+}
+
+.light {
+   width: 128px;
+   height: 128px;
+   border-radius: 50%;
+   z-index: 15;
+   opacity: .2;
+   display: flex;
+}
+
+.redLight {
+   background: #e11919;
+}
+
+.yellowLight {
+   background: #ffaf00;
+}
+
+.greenLight {
+   background: #19af19;
+}
+
+.trafficLight .activeLights {
+   opacity: 1;
+}
+
+.timer {
+   color: #eee;
+   font-size: 50px;
+   margin: auto;
+}
+
+.hightlight {
+   animation-name: blinkingColor;
+   animation-duration: .5s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+
+@keyframes blinkingColor {
+   from {
+      opacity: 1;
+   }
+   
+   to {
+      opacity: .2;
+   }
+}
