@@ -44,9 +44,8 @@ class TrafficLight extends Component {
    }
 
 
-   transformRoute = (curLightPath) => {
-      let curLight = curLightPath.split('/');
-      return curLight[2]
+   transformRoute = (curLight) => {
+      return curLight
          .split('-')
          .map(
             (word, i) => i === 1 ?  word : word[0].toUpperCase() + word.slice(1)
