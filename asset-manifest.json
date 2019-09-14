@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/traffic-light/static/css/main.04848d5b.chunk.css",
-    "main.js": "/traffic-light/static/js/main.3d5a5910.chunk.js",
-    "main.js.map": "/traffic-light/static/js/main.3d5a5910.chunk.js.map",
+    "main.js": "/traffic-light/static/js/main.f724e493.chunk.js",
+    "main.js.map": "/traffic-light/static/js/main.f724e493.chunk.js.map",
     "runtime~main.js": "/traffic-light/static/js/runtime~main.ba433894.js",
     "runtime~main.js.map": "/traffic-light/static/js/runtime~main.ba433894.js.map",
     "static/js/2.f84cbe6f.chunk.js": "/traffic-light/static/js/2.f84cbe6f.chunk.js",
     "static/js/2.f84cbe6f.chunk.js.map": "/traffic-light/static/js/2.f84cbe6f.chunk.js.map",
     "index.html": "/traffic-light/index.html",
-    "precache-manifest.513904c7d7f77fca428e3d3ded17f05e.js": "/traffic-light/precache-manifest.513904c7d7f77fca428e3d3ded17f05e.js",
+    "precache-manifest.53edc5e4c7539c38c5259021e6eea65c.js": "/traffic-light/precache-manifest.53edc5e4c7539c38c5259021e6eea65c.js",
     "service-worker.js": "/traffic-light/service-worker.js",
     "static/css/main.04848d5b.chunk.css.map": "/traffic-light/static/css/main.04848d5b.chunk.css.map"
   }
