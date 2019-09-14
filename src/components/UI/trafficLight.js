@@ -23,6 +23,7 @@ class TrafficLight extends Component {
    }
 
    componentDidMount () {
+      console.log('componentDidMount')
       const currentLight = this.transformRoute(this.state.currentLightRoute);
 
       const currentLightElement = document.querySelector(`.${currentLight}`);
@@ -48,7 +49,7 @@ class TrafficLight extends Component {
       return curLight
          .split('-')
          .map(
-            (word, i) => i === 1 ?  word : word[0].toUpperCase() + word.slice(1)
+            (word, i) => i === 0 ?  word.slice(1) : word[0].toUpperCase() + word.slice(1)
          )
          .join('');
    }
