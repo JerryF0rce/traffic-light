@@ -6,9 +6,9 @@ const MainMenu = () => {
    return (
       <header>
          <div className="container">
-            <Link to="/#/traffic-light/red-light">Go to: /red-light</Link>
-            <Link to="/#/traffic-light/yellow-light" >Go to: /yellow-light</Link>
-            <Link to="/#/traffic-light/green-light" >Go to: /green-light</Link>
+            <a href="/traffic-light/#/red-light">Go to: /red-light</a>
+            <a href="/traffic-light/#/yellow-light" >Go to: /yellow-light</a>
+            <a href="/traffic-light/#/green-light" >Go to: /green-light</a>
          </div>
       </header>
    );
