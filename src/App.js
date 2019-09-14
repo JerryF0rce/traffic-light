@@ -10,9 +10,9 @@ class App extends Component {
       return (
          <div className="App"> 
             <Route path="/" component={MainMenu}/>
-            <Route path="/red-light" component={TrafficLight} />
-            <Route path="/yellow-light" component={TrafficLight} />
-            <Route path="/green-light" component={TrafficLight} />
+            <Route path="/traffic-light/#/red-light" component={TrafficLight} />
+            <Route path="/traffic-light/#/yellow-light" component={TrafficLight} />
+            <Route path="/traffic-light/#/green-light" component={TrafficLight} />
          </div>
       );
    }
