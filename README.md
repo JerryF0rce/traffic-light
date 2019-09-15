@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://jerryf0rce.github.io/traffic-light/#/red-light
 
 ## Available Scripts
 
